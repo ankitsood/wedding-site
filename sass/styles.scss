@@ -104,6 +104,444 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+/*# 11. Where&When*/
+.when_where {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.when_where .container {
+}
+
+.when_where_container {
+  z-index: 2;
+  position: relative;
+
+}
+
+.when_where_container .title3 {
+  width: 300px;
+  margin: 0 auto
+}
+
+.when_where_container .title4 {
+  width: inherit;
+  margin: 0;
+}
+
+.when_where .over {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.when_where h2 {
+  margin: 0 0 50px 0;
+  opacity: 0.8
+}
+
+.when_where h2:after {
+  display: none
+}
+
+.pattern1 {
+  background: url(../images/venz1.png);
+  background-size: cover;
+  width: 122px;
+  height: 28px;
+  margin: 0 auto 20px
+}
+
+.pattern2 {
+  background: url(../images/venz4.png);
+  background-size: cover;
+  width: 142px;
+  height: 8px;
+  margin: 20px auto
+}
+
+.pattern3 {
+  background: url(../images/venz5.png);
+  background-size: cover;
+  width: 73px;
+  height: 24px;
+  margin: 20px auto 0
+}
+
+.title0 {
+  font: 300 16px/28px Roboto Condensed;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.title1 {
+  font: 46px/48px Great Vibes;
+}
+
+.title1_2 {
+  text-indent: -15px;
+  font: 52px/56px Great Vibes;
+}
+.box{
+  padding: 20px;
+  background: rgb(34, 34, 34); /* for IE */
+  background: rgba(34, 34, 34, 0.75);
+  width: 50%;
+  overflow: none;
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.title2 {
+  font: 56px/60px Roboto Condensed;
+  margin: 0 0 13px 0;
+  letter-spacing: -1px
+}
+
+.title3 {
+  font: 24px/32px Roboto Condensed;
+  margin: 0 0 5px 0;
+}
+
+.title4 {
+  font: 300 34px/40px Roboto Condensed;
+  text-transform: uppercase
+}
+
+.title5 {
+  font: 300 14px/24px Roboto Condensed;
+  text-transform: uppercase;
+  margin: -5px 0 20px
+}
+
+.clock_icon {
+  margin: 50px 0 0 0
+}
+
+.photocamera {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  margin: -20px 0 0 0;
+  z-index: 4;
+}
+
+.hotel .container {
+  padding-bottom: 0
+}
+
+.photocamera span:before {
+  font-size: 24px !important
+}
+
+.photocamera span {
+  animation: 2.4s ease infinite camera-pulse;
+  -webkit-animation: 2.4s ease infinite camera-pulse;
+  position: absolute;
+  cursor: pointer
+}
+
+@keyframes camera-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6
+  }
+  30% {
+    transform: scale(1.3);
+    opacity: 1
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6
+  }
+}
+
+/*# 5. Married*/
+.married {
+  text-align: center;
+}
+
+.married .container {
+  padding: 60px 0 0
+}
+
+.married .btn {
+  margin: 30px 0 0
+}
+
+.marries_left {
+  float: left;
+  width: 33%;
+  height: 270px;
+  position: relative;
+  left: -41px
+}
+
+.bride_block {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: skew(-17deg, 0deg);
+  transform-origin: 50% 50% 0;
+  left: 0;
+  overflow: hidden
+}
+
+.bride_img {
+  background: url(../images/br4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transform: skew(17deg, 0);
+  transform-origin: 0 0 0
+}
+
+.marries_center {
+  float: left;
+  width: 33%
+}
+
+.marries_right {
+  float: right;
+  width: 33%;
+  height: 270px;
+  position: relative;
+  right: -41px
+}
+
+.groom_block {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: skew(-17deg, 0);
+  transform-origin: 50% 50% 0;
+  right: 0;
+  overflow: hidden
+}
+
+.groom_img {
+  background: url(../images/br5.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transform: skew(17deg, 0);
+  transform-origin: 100% 100% 0
+}
+
+.married_coundown {
+  font: 400 40px/48px Roboto Condensed;
+  margin: 20px 0 0 0
+}
+
+.married_coundown .countdown-section {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 10px;
+  min-width: 60px;
+  position: relative;
+}
+
+.married_coundown .countdown-amount {
+  min-width: 60px;
+  text-align: center;
+}
+
+.married_coundown .countdown-section:before {
+  content: " : ";
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 -15px;
+  position: absolute;
+  left: 0
+
+}
+
+.married_coundown .countdown-section:first-child:before {
+  display: none
+}
+
+.married_coundown .countdown-period {
+  font: 20px/24px Great Vibes;
+  color: #C5C3BE;
+  display: block;
+  text-transform: lowercase;
+}
+
+.double_arrow {
+  width: 188px;
+  height: 25px;
+  margin: 25px auto
+}
+
+.bride_title_block {
+  font: 46px/48px Great Vibes;
+  text-align: center;
+  margin: 80px 0 0 0;
+  color: #D9C6B1;
+  position: absolute;
+  left: 10%;
+  text-align: center;
+}
+
+.bride_title_block i {
+  font: normal 300 15px/24px Roboto Condensed;
+  color: #666;
+  display: block;
+  margin: -7px 0 0 0;
+  padding: 0 0 0 10px;
+}
+
+.bride_title_block:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 25px;
+  background: #D9C6B1;
+  transform: skew(-17deg, 0);
+  margin: -35px 0 0 20px;
+  left: 50%
+}
+
+.bride_title_block:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 25px;
+  background: #D9C6B1;
+  transform: skew(-17deg, 0);
+  margin: 7px 0 0 -9px;
+  left: 50%
+}
+
+.groom_title_block {
+  font: 46px/48px Great Vibes;
+  text-align: center;
+  margin: 80px 0 0 0;
+  color: #D9C6B1;
+  position: absolute;
+  right: 10%;
+  text-align: center;
+}
+
+.groom_title_block i {
+  font: normal 300 15px/24px Roboto Condensed;
+  color: #666;
+  display: block;
+  margin: -7px 0 0 0;
+  padding: 0 0 0 10px;
+}
+
+.groom_title_block:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 25px;
+  background: #D9C6B1;
+  transform: skew(-17deg, 0);
+  margin: -35px 0 0 20px;
+  left: 50%
+}
+
+.groom_title_block:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 25px;
+  background: #D9C6B1;
+  transform: skew(-17deg, 0);
+  margin: 7px 0 0 -9px;
+  left: 50%
+}
+
+.married_photo img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.married_photo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  top: 0;
+  margin: 59px 0 0 141px;
+  z-index: 0;
+}
+
+.groom_title_block .married_photo {
+  margin: 59px 0 0 -55px;
+}
+
+.im1 {
+  width: 302px;
+  height: 302px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  margin: 30px 0 0 0;
+  background-position: center;
+  background-size: cover
+}
+
+.im1:before, .im2:before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  border: 7px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+
+.im2 {
+  width: 302px;
+  height: 302px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  margin: 30px 0 0 0
+}
+
+.im_arrows {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+.im_arrows:before {
+  width: 39px;
+  height: 77px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: -43px;
+  right: 20px
+}
+
+.im_arrows:after {
+  width: 13px;
+  height: 38px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -34px;
+  right: 120px
+}
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -669,6 +1107,10 @@ Engagement Pics
     position: relative;
     overflow: hidden;
     border-radius: 4px;
+   
+  }
+  .img-wrap>img{
+    height: 200px;
   }
   .img-wrap .overlay {
     position: absolute;

@@ -4,11 +4,13 @@
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
+  
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
+    "url": "git+ssh://git@github.com:ankitsood/wedding-site.git"
   },
   "keywords": [
     "wedding",
@@ -27,6 +29,7 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
+    "node-static": "^0.7.11",
     "waypoints": "^4.0.1"
   }
 }
